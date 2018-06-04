@@ -1,0 +1,11 @@
+- Piphillan_output contains raw output from secondGenome program Piphillan that does a nearest neighbor approximation to infer KEGG ortholog per taxanomic unit
+
+- ko_abund_table_normByPathway.Rds is a KO abundance by Sample table, showing the KO counts to be found in every sample. Each KO abundance has been divided by the number of pathways it participates in 
+
+- pathways_gsea.rds: a list named by pathway that gives the name of each KO that participates in that pathway
+
+- Any file with title  *ko--- contains a .tsv file that reports which biomarker (from tableA) a specific KO was found in. extracting_KOs_specific_to_ESVs.R produces those tables
+
+-pvalue_plotting.R is a utility script to create pathway enrichment plots for paper 
+
+-pathway_enrichment.R : actually run the differential pathway enrichment test(GSEA) using ko_abund_table_normByPathway.Rds and pathways_gsea.rds
