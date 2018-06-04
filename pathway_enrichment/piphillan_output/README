@@ -1,0 +1,3 @@
+200p_otu_genome_hit_table: First column is the otuid submitted to piphillan (same order as in phyloseq object). Second column is the genome that the sequence aligned to, and third column is the extent to which the two matched
+450p_genome_contribution_table.RData: R datatable. First column is a genome that was aligned to. Second column is a KEGG ortholog that can be gound in that genome. Third column is the number of times that genome was found in that sample * number of times that KO was found in that genome
+600p_pathway_abund_table: provides KEGG pathway by sample table. Entries are determined from 
